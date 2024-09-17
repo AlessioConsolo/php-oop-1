@@ -1,9 +1,9 @@
 <?php
-
-class Movie {
-    public $title;
-    public $director;
-    public $year;
-    public $genre;   
-}
+    class Movie {
+        
+        public $title;
+        public $director;
+        public $year;
+        public $genre;
+    }
 ?>
