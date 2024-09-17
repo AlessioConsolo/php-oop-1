@@ -12,5 +12,12 @@
             $this->year = $year;
             $this->genre = $genre;
         }
+
+        public function getMovieInfo() {
+            return "Title: " . $this->title . "<br>" .
+                "Director: " . $this->director . "<br>" .
+                "Year: " . $this->year . "<br>" .
+                "Genre: " . $this->genre . "<br><br>";
+        }
     }
 ?>
